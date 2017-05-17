@@ -178,3 +178,29 @@ blockquote{
 	font-size: 1.5em;
 	border-color: #303f9f;
 }
+
+.position-text{
+	font-size: 0.8em;
+}
+
+.job-desc{
+	margin: 15px 0px !important;
+	font-size: 1.2em;
+	font-style: italic
+}
+
+.core-task-title{
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.core-task{
+	margin-left: 15px;
+	list-style-type: disc !important;
+}
+
+.core-task > li{
+	list-style-type: disc !important;
+	margin-left: 15px;
+	padding: 5px 0px;
+}
