@@ -204,3 +204,13 @@ blockquote{
 	margin-left: 15px;
 	padding: 5px 0px;
 }
+
+.skill-body{
+	margin-top: 45px;
+}
+
+.skill-icon{
+	width: auto;
+	height: 100px;
+	margin: 5px;
+}
