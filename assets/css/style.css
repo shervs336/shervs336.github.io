@@ -183,6 +183,16 @@ blockquote{
 	font-size: 0.8em;
 }
 
+@media (max-height: 767px){
+  .position-text{
+    display: block;
+    float: none !important;
+  }
+  blockquote{
+    font-size: 1.25em;
+  }
+}
+
 .job-desc{
 	margin: 15px 0px !important;
 	font-size: 1.2em;
@@ -213,4 +223,37 @@ blockquote{
 	width: auto;
 	height: 100px;
 	margin: 5px;
+}
+
+@media (max-height: 767px){
+  .skill-icon{
+    width: auto;
+    height: 75px;
+  }
+}
+
+.contact-info{
+  position: relative;
+}
+
+.contact-info > span{
+  position: absolute;
+  font-size: 1.15em;
+  top: 12px;
+}
+
+.contact-info > span > a:hover{
+  text-decoration: underline;
+}
+
+@media (max-width: 767px){
+  .contact-info{
+    margin-bottom: 15px;
+    min-height: 50px;
+  }
+}
+
+.card-subtitle{
+  font-size: 0.75em;
+  display: block;
 }
