@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /bower_components/
+sitemap: https://shervs336.github.io/sitemap.xml
