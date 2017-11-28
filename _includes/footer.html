@@ -1,6 +1,8 @@
 <!--Import jQuery before materialize.js-->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
+<script src="assets/js/jquery.rss.min.js"></script>
 <script>
   $('.button-collapse').sideNav({
     menuWidth: 200, // Default is 200
@@ -13,6 +15,12 @@
     });
 
     changeIntroBg();
+
+    $("#rss-feeds").rss("https://scotch.io/feed", {
+      limit: 4,
+      layoutTemplate: "<div class='container-fluid'><div class='row'>{entries}</div></div>",
+      entryTemplate: '<div class="col m6">{title}</div>'
+    });
   });
 
   function changeIntroBg() {

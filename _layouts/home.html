@@ -9,7 +9,13 @@
 
     {% include header.html %}
 
-    {{ content }}
+    <main>
+
+      {% include mobile-sidenav-toggle.html%}
+
+      {{ content }}
+
+    </main>
 
     {% include footer.html %}
 
