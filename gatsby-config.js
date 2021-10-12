@@ -1,7 +1,8 @@
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "shervs336.github.io",
+    siteUrl: "shervs336.github.io",
+    title: "Sherwin Rhey Condez Official Website",
   },
   plugins: ["gatsby-plugin-postcss"],
 };
